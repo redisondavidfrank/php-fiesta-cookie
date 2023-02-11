@@ -66,7 +66,7 @@ function pokemon_def($team, $limit_num){
 
   for($i = 0; $i < 10; $i++){
     if($team[$i][5] >= $limit_num){
-    echo $team[$i][0]."<br>";
+    echo $team[$i][6]."<br>";
     
     }  }
   }
